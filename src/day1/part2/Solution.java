@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 public class Solution {
     public static void main(String[] args) throws IOException {
-        FileInputStream fileReader = new FileInputStream("src\\day1\\part1\\input.txt");
+        FileInputStream fileReader = new FileInputStream("src\\day1\\part2\\input.txt");
         BufferedReader br = new BufferedReader(new InputStreamReader(fileReader, StandardCharsets.UTF_8));
         ArrayList<Integer> list = new ArrayList<>();
         String row;
